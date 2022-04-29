@@ -1,0 +1,9 @@
+{
+  "name": "csc227-final",
+  "version": "0.0.0",
+  "description": "CSC227Final",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
