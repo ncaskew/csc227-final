@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f19f0547-ea5d-45a9-b939-135080a5989a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>public\server.js</StartupFile>
+    <StartupFile>server.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,7 +35,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="public\poster.jpg" />
-    <Content Include="public\server.js" />
+    <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
