@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>CSC227 Final</title>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Calculate Event Cost</h1>
+		</header>
+		<main>
+			<form id="userform" action="index.html" method="post">
+				<fieldset>
+				<legend>User Information</legend>
+					<ul>
+						<li>
+							<label for="name">Name:<br></label>
+							<input type="text" name="name" id="name" required>
+						</li>
+						<li>
+							<label for="phone">Phone Number:<br></label>
+							<input type="tel" name="phone" id="phone" required>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+				<legend>Tickets Needed</legend>
+					<ul>
+						<li>
+							<label for="ticketadult">How many adult Tickets?<br></label>
+							<input type="number" name="adultTickets" id="ticketadult" min="1" required>
+						</li>
+						<li>
+							<label for="ticketchild">How many child Tickets?<br></label>
+							<input type="number" name="childTickets" id="ticketchild" required>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+				<legend>What Date Do You Want</legend>
+					<ul>
+						<li>
+							<label for="date">Date List</label>
+							<input list="dates" name="date" id="date" value="Mar 2021" required>
+							<datalist id="dates">
+								<option value="Mar 2021">
+								<option value="Apr 2021">
+								<option value="May 2021">
+							</datalist>
+						</li>
+					</ul>
+				</fieldset>
+				<button type="submit" class="button">Send Your Order</button>
+			</form>
+		</main>
+		<a href="index.html"><footer>
+			<h3>Return to Main Page</h3>
+		</footer></a>
+	</div>
+</body>
+</html>

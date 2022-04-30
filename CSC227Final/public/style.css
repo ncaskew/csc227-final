@@ -1,0 +1,122 @@
+body {
+    padding: 10px;
+    background-color: #eee;
+    font-family: Verdana, Arial, Helvetica;
+}
+header, footer {
+    clear: both;
+    text-align: center;
+    background-color: gold;
+    color: firebrick;
+    padding: 1px;
+}
+
+nav {
+    vertical-align: top;
+    float: left;
+    overflow: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+img {
+    border: 3px solid gold;
+}
+
+.about {
+    margin-bottom: 10px;
+}
+.dc {
+    clear: both;
+}
+#d {
+    float: left;
+}
+#c {
+    float: left;
+}
+
+#wrapper a {
+    text-decoration: none;
+    color: red;
+}
+#wrapper h1 {
+    color: firebrick;
+}
+#wrapper h2 {
+    color: darkred;
+}
+#wrapper h3 {
+    color: crimson;
+}
+#wrapper table {
+    width: 310px;
+    margin: 30px;
+    padding: 5px;
+}
+#wrapper table, #wrapper th, #wrapper td {
+    padding: 5px;
+    border: 2px solid red;
+}
+#wrapper thead {
+    background-color: firebrick;
+    color: lightcoral;
+}
+#wrapper tbody {
+    color: firebrick;
+}
+#wrapper tfoot {
+    font-weight: bold;
+    font-size: 75%;
+    color: crimson;
+    background-color: lightpink;
+}
+#wrapper caption {
+    font-family: Impact, Verdana, Helvetica;
+    font-weight: bold;
+    font-size: 150%;
+    color: tomato;
+    border: 1px solid crimson;
+}
+
+
+
+#container a {
+    text-decoration: none;
+    color: firebrick;
+    font-weight: bold;
+}
+#container fieldset {
+    margin: 20px 0px;
+}
+#container legend {
+    padding: 7px 5px;
+    background-color: firebrick;
+    color: lightpink;
+    font-family: Impact, Arial, Helvetica;
+}
+#container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#container li + li {
+    padding-top: 10px;
+}
+#container label {
+    font-family: Courier, Verdana, Helvetica;
+}
+#container h2 {
+    color: dimgray;
+}
+#container .button {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: firebrick;
+    color: lightpink;
+}
